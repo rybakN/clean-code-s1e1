@@ -161,6 +161,10 @@ button {
   display: none;
 }
 
+.completed .task__text {
+  display: none;
+}
+
 .edit-mode .task__text {
   display: inline-block;
   width: 224px;
