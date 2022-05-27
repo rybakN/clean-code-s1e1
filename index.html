@@ -10,46 +10,46 @@
       <a class="header-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <section class="conteiner">
-      <section class="add-task">
-        <h3 class="title">Add Item</h3>
-        <div class="task-row-wrapper">
-          <input id="new-task" class="task new-task task__text" type="text">
-          <button class="button">Add</button>
+      <section class="new-task">
+        <h3 class="new-task__title title">Add Item</h3>
+        <div class="new-task__item">
+          <input id="new-task" class="new-task__content task task__text" type="text">
+          <button class="new-task__button button">Add</button>
         </div>
       </section>
       <section class="todo-task">
-        <h3 class="title">Todo</h3>
-        <ul id="incomplete" class="incomplete">
-          <li class="task-item">
-            <input type="checkbox" class="checkbox">
-            <label class="task task__value">Pay Bills</label>
-            <input type="text" class="task task__text">
-            <button class="button button_edit">Edit</button>
-            <button class="button button_del">
-              <img class="button__img" src="./remove.svg" alt="Кнопка удаления">
+        <h3 class="todo-task__title title">Todo</h3>
+        <ul id="incomplete" class="todo-task__list">
+          <li class="todo-task__item task-item">
+            <input type="checkbox" class="todo-task__checkbox checkbox">
+            <label class="todo-task__name task task__value">Pay Bills</label>
+            <input type="text" class="todo-task__input task task__text">
+            <button class="todo-task__button_edit button button_edit">Edit</button>
+            <button class="todo-task__button_del button button_del">
+              <img class="todo-task__img button__img" src="./remove.svg" alt="Кнопка удаления">
             </button>
           </li>
-          <li class="edit-mode task-item">
-            <input type="checkbox" class="checkbox">
-            <label class="task task__value">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task task__text">
-            <button class="button button_edit">Save</button>
-            <button class="button button_del">
-              <img class="button__img" src="./remove.svg" alt="Кнопка удаления">
+          <li class="todo-task__item edit-mode task-item">
+            <input type="checkbox" class="todo-task__checkbox checkbox">
+            <label class="todo-task__name task task__value">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="todo-task__input task task__text">
+            <button class="todo-task__button_edit button button_edit">Save</button>
+            <button class="todo-task__button_del button button_del">
+              <img class="todo-task__img button__img" src="./remove.svg" alt="Кнопка удаления">
             </button>
           </li>
         </ul>
       </section>
-      <section>
-        <h3 class="title">Completed</h3>
+      <section class="compl-task">
+        <h3 class="compl-task__title title">Completed</h3>
         <ul id="completed" class="completed">
-          <li class="task-item">
-            <input type="checkbox" class="checkbox" checked>
-            <label class="task task__value">See the Doctor</label>
-            <input type="text" class="task task__text">
-            <button class="button button_edit">Edit</button>
-            <button class="button button_del">
-              <img class="button__img" src="./remove.svg" alt="Кнопка удаления">
+          <li class="compl-task__item task-item">
+            <input type="checkbox" class="compl-task__checkbox checkbox" checked>
+            <label class="compl-task__name task task__value">See the Doctor</label>
+            <input type="text" class="compl-task__input task task__text">
+            <button class="compl-task__button_edit button button_edit">Edit</button>
+            <button class="compl-task__button_del button button_del">
+              <img class="compl-task__img button__img" src="./remove.svg" alt="Кнопка удаления">
             </button>
           </li>
         </ul>

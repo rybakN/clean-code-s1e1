@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.new-task__item {
   display: flex;
 }
 
@@ -107,7 +107,7 @@ button {
   margin: 0 0 20px;
 }
 
-.new-task {
+.new-task__content {
   width: 318px;
 }
 
@@ -157,7 +157,7 @@ button {
 }
 
 /* Edit Task */
-.incomplete .task__text {
+.todo-task__list .task__text {
   display: none;
 }
 
